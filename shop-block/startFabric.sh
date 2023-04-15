@@ -38,7 +38,7 @@ pushd ../test-network
 ./network.sh down
 ./network.sh up createChannel -ca -s couchdb
 ./network.sh deployCC -ccn shop_block -ccv 1 -cci initLedger -ccl ${CC_SRC_LANGUAGE} -ccp ${CC_SRC_PATH}
-./network.sh deployCC -ccn token_erc20 -ccp ../token-erc-20/chaincode-javascript/ -ccl javascript
+# ./network.sh deployCC -ccn token_erc20 -ccp ../token-erc-20/chaincode-javascript/ -ccl javascript
 
 popd
 
